@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-10-08",
+  "main": "src/index.ts",
+  "name": "flashback-api",
+  "upload_source_maps": true,
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "flashback",
+      "database_id": "6c380ec7-adfc-4cde-ad4b-6b127d629294"
+    }
+  ]
+}
