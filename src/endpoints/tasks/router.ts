@@ -1,10 +1,10 @@
-import { Hono } from "hono";
 import { fromHono } from "chanfana";
-import { TaskList } from "./taskList";
+import { Hono } from "hono";
 import { TaskCreate } from "./taskCreate";
+import { TaskDelete } from "./taskDelete";
+import { TaskList } from "./taskList";
 import { TaskRead } from "./taskRead";
 import { TaskUpdate } from "./taskUpdate";
-import { TaskDelete } from "./taskDelete";
 
 export const tasksRouter = fromHono(new Hono());
 
