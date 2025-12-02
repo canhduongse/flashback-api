@@ -1,0 +1,8 @@
+-- Migration number: 0002 	 2025-12-02T00:00:00.000Z
+CREATE TABLE
+    IF NOT EXISTS notes (
+        id TEXT PRIMARY KEY NOT NULL,
+        value TEXT NOT NULL,
+        created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+    );
